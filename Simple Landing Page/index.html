@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+        <img src="./img/shape.png" alt="" class="shape" />
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="Logo" />
+              <h3>BBROS</h3>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#sign-up" class="btn">Sign up</a></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+        <!-- home part -->
+        <div class="card">
+        <div class="showcase-area" id="home">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>Not just another design </h1>
+                <h1>& Development Agency</h1>
+              </div>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Delectus eius distinctio odit, magni magnam qui ex perferendis
+                vitae!
+              </p>
+              <div class="cta">
+                <a href="#" class="btn">Contact</a>
+                <a href="#" class="btn">Back to Top</a>
+              </div>
+            </div>
+
+            <div class="right">
+              <img src="./img/person.png" alt="Person Image" class="person" />
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- about part -->
+        <div class="card">
+        <div class="showcase-area" id="about">
+          <div class="container">
+            <div class="left">
+              <img src="./img/question.png" alt="Question Image" class="question" />
+            </div>
+        
+            <div class="right">
+              <div class="big-title">
+                <h1>About Us</h1>
+                <h3>Meet our values</h3>
+                <h3>What BBros consist of</h3>
+              </div>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Delectus eius distinctio odit, magni magnam qui ex perferendis
+                vitae!
+              </p>
+              <div class="cta">
+                <a href="#" class="btn">Contact</a>
+                <a href="#" class="btn">Back to Top</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- service part -->
+        <div class="card">
+        <div class="showcase-area" id="services">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>Our</h1>
+                <h1>Services</h1>
+              </div>
+              <ul class="text">
+                <li>First Service</li>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <li>Second Service</li>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde?</p>
+                <li>Third Service</li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </ul>
+              <div class="cta">
+                <a href="#" class="btn">Contact</a>
+                <a href="#" class="btn">Back to Top</a>
+              </div>
+            </div>
+        
+            <div class="right">
+              <img src="./img/service.png" alt="Service Image" class="service">
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- sign-up part -->
+        <div class="showcase-area" id="sign-up">
+          <div class="sign-up">
+            <div class="big-title">
+              <h1>Sign Up</h1>
+              <br>
+            </div>
+            <div class="input-container">
+              <input type="text" id="username" class="text-input" autocomplete="off" placeholder="Enter your username" required>
+              <label class="label" for="username">Username</label>
+            </div>
+            <br>
+            <div class="input-container">
+              <input type="password" id="password" class="text-input" autocomplete="off" placeholder="Enter your password" required>
+              <label class="label" for="password">Password</label>
+            </div>
+            <br>
+            <div class="cta">
+              <a href="#" class="btn">Sign Up</a>
+              <a href="#" class="btn">Back to Top</a>
+            </div>
+          </div>     
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript Files -->
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
